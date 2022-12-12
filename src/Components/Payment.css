@@ -1,0 +1,79 @@
+/* input{
+    outline:none;
+    border:none;
+    color: black;
+    width: 70%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition:.5s;
+    border: 2px solid #f82525;
+}
+input:focus{
+    border-bottom: 2px solid #f82525;
+} */
+.paymentContainer{
+    display:none;
+    flex-direction: column;
+    width:80vw;
+    margin:auto;
+    position:relative;
+    top:10vh;
+    align-items: center;
+    border: 2px solid #f82525;
+    border-radius: 14px;
+}
+.paymentContainer > input {
+    padding-top: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+    margin: 15px 0px;
+    width: 90%;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+.paymentContainer .amountDisclaimer{
+    font-size: 20px;
+}
+.paymentContainer .optionsHeader{
+    margin:20px 0px;
+}
+
+.paymentContainer .toCompletion{
+    color:white;
+    background-color: black;
+    border:none;
+    margin:10px 0px;
+    transition:.5s;
+    height:50px;
+    width:100%;
+}
+.paymentContainer .toCompletion:hover{
+    color:rgb(158, 152, 152);
+    background-color: black;
+}
+/* .loader{
+    position:absolute;
+    top:20%;
+    left:35%;
+    z-index:-2;
+    display:none;
+} */
+.paymentContainer .optionDiv{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.paymentContainer .optionDiv>label{
+    margin:0px 5px;
+}
+.paymentContainer .cardDetailsDiv{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.paymentContainer .cardDetailsDiv>*{
+    margin:5px 0px;
+}
+.paymentContainer .upiDiv,.cardDiv{
+    margin:15px 0px;
+}

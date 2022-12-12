@@ -1,0 +1,37 @@
+.completionContainer{
+        display:none;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        top: 10vh;
+        border-bottom: 2px solid #f82525;
+        margin:auto;
+        padding: 2vh;
+}
+.completionContainer>img{
+    top: 10vh;
+    width:150px;
+    height:150px;
+}
+.completionContainer>h{
+    font-size:larger;
+    font-weight: 900;
+}
+.completionContainer>button{
+        background-color: black;
+        color:white;
+        border:none;
+        margin:10px 0px;
+        transition:.5s;
+        height:50px;
+        width:30%;
+}
+.completionContainer>button:hover{
+    color:rgb(158, 152, 152);
+    background-color: black;
+}
+.completionContainer .details{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+}
